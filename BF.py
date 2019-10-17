@@ -17,8 +17,8 @@ def brute_force(s1, s2):
 
 
 if __name__ == '__main__':
-    s1 = 'lalaheiheihehe'
-    s2 = 'ihei'
+    s1 = 'when you say nothing at all'
+    s2 = 'ing a'
     print(brute_force(s1, s2))
 
 
