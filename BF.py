@@ -16,9 +16,9 @@ def brute_force(s1, s2):
     return True
 
 
-
-s1 = 'whatisthefuck'
-s2 = 'hefq'
-print(brute_force(s1, s2))
+if __name__ == '__main__':
+    s1 = 'lalaheiheihehe'
+    s2 = 'ihei'
+    print(brute_force(s1, s2))
 
 
