@@ -17,4 +17,5 @@ def queen(A, cur=0):
             queen(A, cur + 1)
 
 
-queen([None]*8)
+if __name__ == '__main__':
+    queen([None]*8)

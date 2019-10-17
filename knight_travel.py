@@ -48,10 +48,11 @@ def next_step():
     step += 1
 
 
-step = 2
-# 以列表形式存储每个步点位置，方便回溯
-footprint = [[4, 3]]
-matrix = numpy.zeros((8, 8))
-matrix[4][3] = 1
-knight_travel()
-print(matrix)
+if __name__ == '__main__':
+    step = 2
+    # 以列表形式存储每个步点位置，方便回溯
+    footprint = [[4, 3]]
+    matrix = numpy.zeros((8, 8))
+    matrix[4][3] = 1
+    knight_travel()
+    print(matrix)
